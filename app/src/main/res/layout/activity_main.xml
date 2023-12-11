@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/mindmasters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/mindmasters" />
+
+    <ImageButton
+        android:id="@+id/brainLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/centerlogo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/brainLogo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coiny"
+        android:text="Welcome to Brain Games!"/>
+
+</RelativeLayout>

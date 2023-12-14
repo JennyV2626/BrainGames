@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MinigamesPage">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 2 (MINIGAMES HERE!)"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/backToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="655dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/mindmasters" />
 
     <ImageButton
-        android:id="@+id/brainLogo"
+        android:id="@+id/logoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -28,9 +28,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/brainLogo"
+        android:layout_above="@id/logoButton"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/coiny"
-        android:text="Welcome to Brain Games!"/>
+        android:text="Welcome to Brain Games!"
+        android:textSize="28dp" />
 
 </RelativeLayout>

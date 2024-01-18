@@ -9,11 +9,11 @@
 
     <ImageButton
         android:id="@+id/mindmasters"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
+        android:layout_width="127dp"
+        android:layout_height="137dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
         app:srcCompat="@drawable/mindmasters" />
 
     <ImageButton

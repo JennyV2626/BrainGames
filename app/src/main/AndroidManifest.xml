@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BrainGames"
         tools:targetApi="31">
         <activity
+            android:name=".OddOneOut"
+            android:exported="false" />
+        <activity
             android:name=".MinigamesPage"
             android:exported="false" />
         <activity

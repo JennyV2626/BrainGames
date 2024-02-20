@@ -32,6 +32,5 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/coiny"
         android:text="Welcome to Brain Games!"
-        android:textSize="28dp" />
-
+        android:textSize="28dp"/>
 </RelativeLayout>
